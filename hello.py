@@ -13,6 +13,7 @@ DEBUG = True
 SECRET_KEY = 'development key'
 USERNAME = 'admin'
 PASSWORD = 'admin'
+KEEP='keep'
 
 app = Flask(__name__)
 config = app.config.from_object(__name__)
