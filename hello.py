@@ -10,6 +10,8 @@ from werkzeug.utils import redirect
 DATABASE = 'blog.db'
 DEBUG = True
 
+
+todo='todo'
 SECRET_KEY = 'development key'
 USERNAME = 'admin'
 PASSWORD = 'admin'
