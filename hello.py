@@ -14,6 +14,7 @@ SECRET_KEY = 'development key'
 USERNAME = 'admin'
 PASSWORD = 'admin'
 KEEP='keep'
+keep2='keepagain'
 
 app = Flask(__name__)
 config = app.config.from_object(__name__)
